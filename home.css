@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background: #845EC2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: ;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    height: 100v;
+
+}
+header{
+    background: #00C9A7;
+    display: flex;
+    justify-content: space-between;
+    z-index: 99;
+    background;
+    
+    
+}
+.itu{
+    font-size: 60px;
+    margin-left: 30px;
+}
+.lorem{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: larger;
+}
+.about{
+    background-color: deepskyblue;
+    margin-left: 30px;
+    margin-top: 25px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.about:hover{
+    background-color: #F9F871;
+    color: black;
+}
+#flexbox-img-3{
+    color: black;
+    font-size: 120px;
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.college{
+    margin-top: -10px;
+    margin-left: 30px;
+    font-size: larger;
+}
+.words-container{
+    width: 500px;
+    padding-left: 20px;
+    color: #fff;
+    margin-top: 15px;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 5px;
+    margin-right: 25px;
+    margin-top: 22px;
+    
+}
+#shift{
+    margin-right: 5px;
+}
+a{
+    color: white;
+    font-weight: bolder;
+    font-family: ;
+}
+.flexbox-img{
+    width: 300px;
+    border-radius: 50%;
+}
+#flexbox-img-2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    font-size: 120px;
+    color: black;
+    margin-left:40px;
+    margin-top: 40px;
+}
+#flexbox-img-4{
+    font-size: 150px;
+    color: black;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.flex-box{
+    display: flex;
+    margin-top: 70px;
+    padding: 10px 15px;
+    margin-left: 15px;
+    justify-content: space-around;
+    
+}
+i{
+    cursor: pointer;
+}
+.college-img{
+    border-radius: 50%;
+    height: 90px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.nav-bars{
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.henry{
+    display:none
+}
+.div-caption{
+    color: whitesmoke;
+    margin-top: -130px;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.hover:hover{
+    color: #F9F871;
+    border-bottom: 2px solid white;
+    width: 40px;
+}
+header ul li ul{
+    position: absolute;
+    display: none;
+    background-color: orange;
+    border-radius:0px 0px 5px 5px  ;
+    margin-top: 10px;
+}
+.carousel-img{
+    background-attachment: fixed;
+    width: 20px;
+}
+.lol{
+    padding: 0px 15px 0px 15px;
+}
+.gege{
+    display: none;
+    color: black;
+    font-size: larger;
+}
+.div-network{
+    margin-top: 55px;
+    margin-left: 10px;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder ;
+}
+.div-question{
+    margin-top: 30px;
+    color: whitesmoke;
+    margin-left: 0px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.carousel-container {
+    position: relative;
+    width: 40%; /* Adjust this to your desired carousel width */
+    margin-left: 270px;
+    overflow: hidden;
+    margin-top: -15px;
+  }
+  .carousel-slide {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    background-attachment: fixed;
+    width: 305rem;
+  }
+  .div-word{
+    display: flex;
+    flex-direction: row;
+    background-color: #da7b91;
+    opacity: 1.5;
+  }
+.carousel-pics{
+    width: 30px;
+    height: 100vh;
+}
+  .carousel-slide img {
+    width: 900px;
+    height: 400px;
+    margin-top: 20px;
+  }
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 15px;
+  }
+  .carousel-button.next {
+    right: 0;
+  }
+  
+  .carousel-button.prev {
+    left: 0;
+  }
+  .email-box,.help, .our-resources, .network{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+  }.footer{
+    margin: auto;
+    margin-top: 70px;
+    height: 400px;
+    width: 100%;
+
+  }
+  .footer-lu{
+    list-style: none;
+    padding: 70px 0;
+    margin-top: -50px;
+  }
+.footer-col{
+    width: 25%;
+    padding: 0 55px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(38, 38, 201);
+}
+h4{
+    color: rgb(255, 0, 149);
+    font-size: larger;
+    margin-top: 20px;
+}
+@media (max-width:1000px) {
+    header{
+        position: absolute;
+        width: 100%;
+        height: 100px;
+     }
+    ul{
+         position: fixed;
+         margin-top: 100px;
+         right: -100%;
+         background: #00C9A7;
+         height: 360px;
+         flex-direction: column;
+         align-items: center;
+         transition: right 0.5s  linear;
+         width: 100%;
+         display:flex ;
+         line-height: 2;
+    }
+    header .gege{
+        display: block;
+        width: 50px;
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        font-size: 25px;
+        margin-right: 20px;
+    }
+
+    #heyy:checked ~ ul{
+        right: 0;
+    }
+    img{
+        height: 10px;
+    }
+    a{
+        text-transform: uppercase;
+    }
+    .carousel-slide img{
+        margin-top: 105px;
+        height: 400px;
+        width: 500px;
+    }
+    .div-word{
+        display: flex;
+        flex-direction: column;
+    }
+    a:hover{
+        color: blue
+    }
+    .words-container{
+        padding: ;
+        margin-top: 100px;
+        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        font-size: smaller;
+        width: fit-content;
+        margin-top: 130px;
+    }
+    .carousel-container{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: -60px;
+    }
+    .flex-box{
+        display: flex;
+        flex-direction: column;
+        margin-left: 70px;
+        margin-top: 5px;
+        /* background-color: blue; */
+        width:  fit-content;
+    }
+    .network, .our-resources, .help, .email-box{
+        margin-top: 40px;
+    }
+    .carousel-slide-img{
+        height: 300px;
+    }
+    .div-network{
+        margin-top: 55px;
+        margin-left: 10px;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        font-weight: bolder ;
+    }
+    .about:hover{
+        background-color: #FF6F91;
+    }
+    
+}
